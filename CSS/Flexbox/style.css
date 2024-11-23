@@ -1,0 +1,48 @@
+/* Flexbox-> A flexible box used to create 1D layout i.e. positioning of content */
+.container{
+    background-color: #000;
+    border:3px solid red;
+    height:200px;
+    margin:2px;
+    padding:3px;
+    display:flex;
+    flex-direction:row;
+    /* flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center;
+    align-content: center; */
+
+}
+
+.box{
+    background-color: beige;
+    border:2px solid rgb(250, 246, 246);
+    height:40px;
+    width:50px;
+    margin:2px;
+    padding:2px;
+   
+}
+#box1{
+    background-color: aqua;
+    /* flex-grow: 5; */
+    /* align-self: end; */
+}
+
+#box2{
+    background-color: rgb(51, 195, 71);
+    /* flex-shrink:4; */
+    /* flex-grow: 1; */
+}
+
+#box3{
+    background-color: bisque;
+    /* order: -1;  Sequence change krne ke liye koi value dete h*/
+    /* flex-grow: 1; */
+}
+
+#box4{
+    background-color: rgb(120, 61, 180);
+    /* flex-grow: 1; */
+    /* flex-basis:400px ; */
+}

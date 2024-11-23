@@ -1,0 +1,46 @@
+:root{
+    --primary-color:rgb(219, 75, 2);
+    --custom-width: 330px;
+}
+
+
+.container{
+    background-color:bisque;
+    height:650px;
+    border:2px solid black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+#vk{
+    /* text-shadow: 12px 13px 1px rgb(240, 24, 24); */
+    /* text-shadow: yellow 2px 3px 4px; */
+    /* text-shadow: green 2px 4px; */
+    /* text-shadow: 12px 13px; */
+    /* text-shadow: 2px 3px rgb(228, 70, 70),4px 5px blue,6px 7px rgb(21, 156, 21); */
+}
+
+.box{
+    /* --primary-color:rgb(219, 75, 2);
+    --custom-width: 330px; */
+    background-color: rgb(35, 152, 152);
+    height:var(--custom-width);
+    width:330px;
+    border: 3px solid var(--primary-color);
+    margin:5px;
+    padding:5px;
+    /* box-shadow: 7px 6px grey;  shadow syntax*/
+    /* box-shadow: 10px 15px 50px;  blurr radius*/
+    /* box-shadow: 10px 15px 5px 100px greenyellow;  spread radius*/
+    /* box-shadow:inset 10px 15px brown;  inside shadow*/
+    /* box-shadow: 10px 15px red,15px 8px blue; */
+
+   
+}
+
+img{
+    height:200px;
+    width:190px;
+}
+

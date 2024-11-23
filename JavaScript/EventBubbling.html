@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>event bubbling</title>
+    <style>
+        .container{
+            margin: 14px;
+            padding: 14px;
+            background-color: rgb(45, 241, 71);
+        }
+        .childContainer{
+            margin: 14px;
+            padding: 14px;
+            background-color: rgb(128, 193, 250);
+        }
+        .child{
+            margin: 14px;
+            padding: 14px;
+            background-color: rgb(67, 144, 211);
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="childContainer">
+            <div class="child">
+                I am a child
+            </div>
+        </div>
+    </div>
+    <script>
+        document.querySelector(".child").addEventListener("click",(e)=>{
+            // e.stopPropagation()   ---> to stop event bubbling
+            alert("child was clicked!")
+        })
+
+        document.querySelector(".childContainer").addEventListener("click",(e)=>{
+            e.stopPropagation()
+            alert("childContainer was clicked!")
+        })
+
+        document.querySelector(".container").addEventListener("click",(e)=>{
+            alert("container was clicked!");
+        })
+
+    function getRandomColor(){
+    let val1=Math.ceil(0+Math.random()*255);
+    let val2=Math.ceil(0+Math.random()*255);
+    let val3=Math.ceil(0+Math.random()*255);
+    return `rgb(${val1},${val2},${val3})`;
+    }
+
+        // let a=setInterval(() => {
+        //     document.querySelector(".childContainer").style.background=getRandomColor()
+        // }, 1000);
+        // console.log(a);   // use clearInterval(a) to stop this in console
+
+        let b=setTimeout(() => {
+            document.querySelector(".childContainer").style.background=getRandomColor()
+        }, 3000);
+        console.log(b);   // use clearTimeout(b) to stop this in console
+        
+
+    </script>
+</body>
+</html>

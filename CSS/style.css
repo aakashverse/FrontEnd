@@ -1,0 +1,150 @@
+*{
+    /* good practice*/
+    /* padding:0; */
+    /* margin:0px; */
+    /* content will shrink(i.e. adjusts itself) & no change in dimension of box on adding padding and margin */
+    /* actual box apna size retain krat h */
+    /* box-sizing: border-box; */
+}
+
+
+
+p{
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+    font-weight: 100;
+    line-height:30px
+}
+span{
+    border-style:solid;
+    border-color:blue;
+    width:60px;
+    height:100px;
+    /* height and width not affect why?*/
+}
+
+/* p,article{
+    width:1000px;
+    color:rgb(45, 122, 135)
+} */
+
+/*#firstpara1{
+    background-color: aqua;
+    border:solid black 3px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    /*padding-left:20px;
+    padding-right:20px; */
+    /* padding:10px 20px 30px 40px; */
+    /* padding:10px 20px; */
+
+    /* margin:10px; */
+    /* margin:10px 20px 30px 40px; */
+
+/* 
+#secondpara2{
+    background-color: #f3f300ca;
+    border:solid black 3px;
+    border-radius: 5px;
+}
+
+#thirdpara3{
+    background-color: rgba(39, 199, 71, 0.788);
+    border:solid black 3px;
+    border-radius: 5px;
+}
+
+#fourthpara4{
+    background-color: hsla(311, 67%, 51%, 0.719);
+    border:solid black 3px;
+    border-radius: 5px;
+    height:150px;
+} */
+
+
+.fourboxes{
+    margin:60px;
+}
+
+
+.box1{
+    background-color: rgb(255, 145, 0);
+    height:60px;
+    width:60px;
+    margin:20px;
+    border: 2px solid black;
+   
+   
+}
+
+.box2{
+    background-color: rgb(8, 150, 145);
+    height:60px;
+    width: 60px;
+    margin:20px;
+    border: 2px solid black;
+    /* position: relative;
+    top:40px; */
+    /* position:absolute;
+    top:100px; */
+}
+
+.box3{
+    background-color: rgb(7, 255, 110);
+    height:60px;
+    width: 60px;
+    border: 2px solid black;
+    position: sticky;
+    top:30px;
+    
+}
+
+.box4{
+    background-color: rgb(72, 0, 255);
+    height:60px;
+    width: 60px;
+    margin:20px;
+    /* border: 2px solid black;
+    position:fixed; */
+
+}
+
+#img1{
+    float:right;
+    height:350px;
+    width:200px;
+}
+
+#img2{
+    float:right;
+    height:350px;
+    width:200px;
+    clear:right;
+}
+
+.item{
+    border:2px solid black;
+     /* to prevent overflow */
+    overflow:auto;
+}
+.box{
+    border:2px solid black;
+    margin:10px;
+    background-color: aquamarine;
+    height:100px;
+    width:100px;
+    float: left;
+}
+
+#boxA{
+    float:right;
+}
+
+.container{
+    height:600px;
+    border:2px solid black;
+    /* overflow:hidden; */
+    /* overflow:scroll; */
+    overflow:auto;
+}

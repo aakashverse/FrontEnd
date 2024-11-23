@@ -1,0 +1,148 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image:url("https://img.freepik.com/premium-photo/colorful-watercolor-painting-watercolor-background_577115-113740.jpg?size=626&ext=jpg&ga=GA1.1.105985288.1716391624&semt=ais_hybrid");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    background-color: #333;
+    padding: 1rem;
+    color: white;
+}
+
+#heading{
+    display: flex;
+    background-color: #0f0f0f;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#heading h1{
+    color: white;
+}
+
+.COI{
+    margin: 5px;
+    padding: 2px;
+    height: 90px;
+    opacity: inherit; 
+}
+
+.menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.menu li{
+    display: inline-block;
+    margin-right: 10px;
+    cursor: pointer;
+    background-color: #0f0f0f;
+    color: white;
+    padding: 5px 10px;
+    align-content: center;
+}
+
+.menu li:hover{
+    color: #fb7908;
+    text-decoration: underline;
+}
+.content{
+    margin-top: 20px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+h1,h2{
+    color:#333
+}
+
+main{
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+.content{
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+#Content{
+    display: none;
+    padding: 10px;
+    background-color: #e0e0e0;
+    margin-top: 5px;
+}
+
+.collapsible{
+    cursor: pointer;
+    padding: 10px;
+    background-color: #e7e053;
+    border: 2px solid #0f0f0f;
+    margin-bottom: 5px;
+}
+
+.collapsible:hover{
+    background-color: #ddd;
+}
+
+.article p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+#info{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 7px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#article-container h2{
+    margin-top: 1px;
+}
+#article-container{
+    background-color: transparent;
+    text-align: center;
+}
+
+#amendment-container{
+    background-color: transparent;
+    text-align: center;
+}

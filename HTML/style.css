@@ -1,0 +1,23 @@
+/* *{
+    margin:0px;
+    padding:0px;
+} */
+
+.bharat{
+    font-size:200px;
+    font-weight: 800px;
+    margin:10px;
+    padding:140px;
+    background-image: url("./INDflag.jpg");
+    background-size: contain;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mark{
+    font-size:10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    display: flex;
+    flex-direction: row-reverse;
+}
